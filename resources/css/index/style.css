@@ -1,0 +1,104 @@
+/* Home */
+
+.home {
+  background-image: url("../../images/homepage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home ul {
+  .background-color: rgba(94, 175, 255, 0.75);
+  font-size: 2.8vh;
+  border-bottom: 0.3vh solid white;
+}
+
+.home a {
+  color: white;
+}
+
+.home div {
+  background: none;
+  margin-left: 5vw;
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Indie Flower", cursive !important;
+}
+
+.textbox h1 {
+  font-size: 12vh !important;
+}
+
+.textbox-2 {
+  padding-top: 30vh;
+  align-items: flex-end;
+  margin-right: 10vw;
+}
+
+.textbox h2 {
+  font-size: 6vh;
+}
+
+.textbox-2 h3 {
+    background-color: rgba(94, 175, 255, 0.75);
+    padding: 2.5vh;
+    border-radius: 20vh;
+    font-size: 5  vh;
+}
+
+/* Location */
+
+.location {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+
+.location h1 {
+  text-align: center;
+}
+
+.grouping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh;
+  height: 80vh;
+}
+
+iframe {
+  height: 100%;
+  border: 0.7vh solid rgb(94, 175, 255);
+}
+
+.map {
+  width: 60vw;
+
+}
+
+.info {
+  width: 40vw;
+}
+
+.info p {
+  font-size: 3vh;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.storefront img {
+    border: 0.7vh solid rgb(94, 175, 255);
+}
