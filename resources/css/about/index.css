@@ -1,0 +1,91 @@
+.home {
+  background-image: url("../../images/IMG_1213.jpeg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home ul {
+  font-size: 2.8vh;
+  border-bottom: 0.3vh solid black;
+}
+
+.home a {
+  color: black;
+}
+
+.home div {
+  background: none;
+  margin-left: 5vw;
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Indie Flower", cursive !important;
+}
+
+
+.textbox h1 {
+  font-size: 12vh !important;
+}
+
+
+.textbox h2 {
+  font-size: 6vh;
+}
+
+/* About */
+
+p {
+  font-size: 2.8vh;
+  text-align: left;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+}
+
+.duo {
+  display: flex;
+  flex-direction: row;
+}
+
+.duo div {
+  margin: 5vh;
+}
+
+.duo img {
+  width: 20vw;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.about .stormy img {
+  width: 100%;
+  padding: 2vh;
+}
+
+.stormy p {
+  width: 75%;
+  margin: auto;
+}
+
+.laurie {
+  width: 50vw;
+}

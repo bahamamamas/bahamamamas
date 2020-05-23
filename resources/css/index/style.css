@@ -102,3 +102,57 @@ iframe {
 .storefront img {
     border: 0.7vh solid rgb(94, 175, 255);
 }
+
+/* Products */
+
+.products {
+  background-color: rgb(94, 175, 255);
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+.card-body {
+  background-color: rgb(94, 175, 255) !important;
+  width: 80vw;
+  margin: auto;
+}
+
+/* Connect */
+
+.connect {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.connections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect {
+  margin: 5vh;
+  background-color: rgb(94, 175, 255);
+  padding: 2vh;
+  color: white;
+  margin: 10vh;
+}
+
+.connect h2 {
+  border-bottom: 0.3vh solid white;
+  padding: 1vh;
+  font-weight: bold;
+}
+
+.connect h3 {
+  text-align: left;
+}
+
+.connect a {
+  color: white;
+}

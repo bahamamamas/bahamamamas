@@ -1,3 +1,17 @@
 body {
   font-family: 'Balsamiq Sans', cursive !important;
 }
+
+footer {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 6vh;
+  width: 100vw;
+  margin: 0;
+}
+
+footer p {
+  margin: auto;
+}
