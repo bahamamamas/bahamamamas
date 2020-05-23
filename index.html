@@ -21,6 +21,7 @@
 
     <link href="./resources/css/global.css" type="text/css" rel="stylesheet" />
 
+    <script src="./resources/instagram/dist/InstagramFeed.min.js"></script>
 
   </head>
 
@@ -71,6 +72,26 @@
           </div>
           </div>
         </div>
+
+        <div class="instagram_feed">
+          <script>
+            (function(){
+                new InstagramFeed({
+                    'username': 'instagram',
+                    'container': document.getElementById("instagram-feed1"),
+                    'display_profile': true,
+                    'display_biography': true,
+                    'display_gallery': true,
+                    'callback': null,
+                    'styling': true,
+                    'items': 8,
+                    'items_per_row': 4,
+                    'margin': 1
+                });
+            })();
+          </script>
+        </div>
+
 
 
       <script src="./resources/js/jquery331min.js" type="text/javascript"></script>
