@@ -136,7 +136,6 @@ iframe {
 }
 
 .connect {
-  margin: 5vh;
   background-color: rgb(94, 175, 255);
   padding: 2vh;
   color: white;
@@ -149,7 +148,7 @@ iframe {
   font-weight: bold;
 }
 
-.connect h3 {
+.connect h4 {
   text-align: left;
 }
 

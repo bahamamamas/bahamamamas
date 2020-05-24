@@ -1,0 +1,49 @@
+.about {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo img {
+  width: 90vw;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.stormy p {
+  width: 100%;
+}
+
+.laurie {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.duo div {
+  margin: 2vh;
+}
+
+.modules {
+  margin: 1vh;
+}
+
+footer p {
+  text-align: center;
+  padding: 2vh;
+}
