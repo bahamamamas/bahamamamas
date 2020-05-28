@@ -2,16 +2,35 @@
 
 .home {
   background-image: url("../../images/homepage.jpg");
-  height: 100vh;
+  height: 50vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "freebooter", sans-serif;
 }
+
+@font-face {
+  font-family: kauffman;
+  src: url('../../fonts/kauffman.ttf');
+}
+
+@font-face {
+  font-family: freebooter;
+  src: url('../../fonts/freebooter.ttf');
+}
+
+@font-face {
+  font-family: jokerman;
+  src: url('../../fonts/jokerman.ttf');
+}
+
+
 
 .home ul {
   .background-color: rgba(94, 175, 255, 0.75);
-  font-size: 2.8vh;
+  font-size: 3.5vh;
   border-bottom: 0.3vh solid white;
+  font-family: "Balsamiq Sans", sans-serif;
 }
 
 .home a {
@@ -19,13 +38,12 @@
 }
 
 .home div {
-  background: none;
-  margin-left: 5vw;
-  margin-top: 12vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
   color: white;
-  font-family: "Indie Flower", cursive !important;
 }
 
 .textbox h1 {
@@ -47,6 +65,64 @@
     padding: 2.5vh;
     border-radius: 20vh;
     font-size: 5  vh;
+}
+
+/* Rentals */
+
+#special {
+  font-family: "jokerman", serif;
+  font-size: 10vh;
+  background-color: rgba(0,0,0,0.9);
+  padding: 2vh;
+  color: white;
+}
+
+.rentals {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("../../images/bikes.png");
+  height: 70vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.rentals-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rentals h1 {
+  background-color:
+  rgba(0,0,0,0.9);
+  padding: 2vh;
+}
+
+.rentals button {
+  margin-top: 5vh;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  padding: 2vh;
+  font-size: 6vh;
+  margin-bottom: 10vh;
+  border: 0.5vh solid black;
+}
+
+.rentals a {
+  color: white;
+}
+
+.rentals a:hover {
+  color: white;
+}
+
+.rentals h1 {
+  text-align: center;
 }
 
 /* Location */
@@ -72,7 +148,7 @@
   display: flex;
   flex-direction: column;
   padding: 3vh;
-  height: 80vh;
+  height: 85vh;
 }
 
 iframe {
@@ -81,12 +157,12 @@ iframe {
 }
 
 .map {
-  width: 60vw;
+  width: 65vw;
 
 }
 
 .info {
-  width: 40vw;
+  width: 35vw;
 }
 
 .info p {
@@ -96,27 +172,53 @@ iframe {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
 
+.address {
+  text-align: center;
+}
+
+.hours {
+  text-align: center;
 }
 
 .storefront img {
-    border: 0.7vh solid rgb(94, 175, 255);
+    border: 0.7vh solid rgb(0, 140, 255);
 }
 
 /* Products */
 
 .products {
-  background-color: rgb(94, 175, 255);
+  background-color: rgb(0, 140, 255);
   color: white;
   padding-top: 5vh;
   padding-bottom: 5vh;
   text-align: center;
 }
 
+.products h1 {
+  font-size: 7vh;
+}
+
 .card-body {
-  background-color: rgb(94, 175, 255) !important;
+  background-color: rgb(0, 140, 255) !important;
   width: 80vw;
   margin: auto;
+}
+
+.one {
+  background-color: white !important;
+  color: rgb(0, 140, 255) !important;
+  font-size: 3.5vh !important;
+}
+
+.bone:hover {
+  color: black !important;
+}
+
+
+.one:active {
+  color: black !important;
 }
 
 /* Connect */
@@ -126,7 +228,9 @@ iframe {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  color: white;
 }
+
 
 .connections {
   display: flex;
@@ -136,7 +240,7 @@ iframe {
 }
 
 .connect {
-  background-color: rgb(94, 175, 255);
+  background-color: rgb(0, 140, 255);
   padding: 2vh;
   color: white;
   margin: 10vh;
@@ -154,4 +258,24 @@ iframe {
 
 .connect a {
   color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vh;
+}
+
+form button {
+  background-color: rgb(43, 223, 255);
+  border: 0.5vh solid rgb(255, 23, 224);
+  border-radius: 0;
+  color: black;
 }

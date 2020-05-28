@@ -6,9 +6,25 @@
   background-repeat: no-repeat;
 }
 
+@font-face {
+  font-family: kauffman;
+  src: url('../../fonts/kauffman.ttf');
+}
+
+@font-face {
+  font-family: freebooter;
+  src: url('../../fonts/freebooter.ttf');
+}
+
+@font-face {
+  font-family: jokerman;
+  src: url('../../fonts/jokerman.ttf');
+}
+
 .home ul {
   font-size: 2.8vh;
   border-bottom: 0.3vh solid black;
+  font-size: 3.5vh;
 }
 
 .home a {
@@ -27,7 +43,8 @@
 
 
 .textbox h1 {
-  font-size: 12vh !important;
+  font-size: 14vh !important;
+    font-family: "freebooter", sans-serif;
 }
 
 
@@ -38,7 +55,7 @@
 /* About */
 
 p {
-  font-size: 2.8vh;
+  font-size: 3.5vh;
   text-align: left;
 }
 
