@@ -186,6 +186,10 @@ iframe {
     border: 0.7vh solid rgb(0, 140, 255);
 }
 
+.location h3 {
+  font-weight: bold;
+}
+
 /* Products */
 
 .products {
@@ -263,6 +267,8 @@ iframe {
 .connect a {
   color: white;
 }
+
+
 
 form {
   display: flex;
