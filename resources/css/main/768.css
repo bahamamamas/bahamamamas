@@ -1,15 +1,26 @@
 .card-body {
-  width: 90vw;
+  width: 95vw;
+}
+
+.textbox {
+  text-align: center;
 }
 
 .connections {
-  flex-direction: column !important;
+  flex-direction: column;
+  width: 100vw;
 }
 
-.textbox-2 {
-  margin: 0;
-  padding-top: 15vh;
-  margin-right: 5vw;
+.connect-section {
+  flex-direction: column;
+}
+
+form {
+  width: 70vw;
+}
+
+.connect h2 {
+  text-align: center;
 }
 
 .grouping {
@@ -25,6 +36,10 @@
   width: 95vw;
 }
 
-.connect {
-  margin: 3vh;
+.rentals {
+  background-size: cover;
+}
+
+.location {
+  margin-bottom: 0;
 }

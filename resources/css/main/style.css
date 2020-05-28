@@ -223,12 +223,16 @@ iframe {
 
 /* Connect */
 
-.connect {
+.connect-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   color: white;
+  background-color: rgb(0, 140, 255);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-size: 3vh;
 }
 
 

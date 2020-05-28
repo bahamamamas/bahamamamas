@@ -2,19 +2,27 @@
   width: 95vw;
 }
 
+.textbox {
+  text-align: center;
+}
+
 .connections {
   flex-direction: column !important;
+  width: 100vw;
 }
 
-.connect {
-  margin: 2vh;
+.connect-section {
   flex-direction: column;
+  width: 100vw;
 }
 
-.textbox-2 {
-  margin: 0;
-  padding-top: 15vh;
-  margin-right: 5vw;
+.connect h2 {
+  text-align: center;
+}
+
+.info-piece {
+  width: 80vw;
+  overflow: hidden;
 }
 
 .grouping {
@@ -30,7 +38,15 @@
   width: 95vw;
 }
 
-.btn-group {
+p.btn {
   display: flex;
   flex-direction: column;
+}
+
+.rentals {
+  background-size: cover;
+}
+
+.location {
+  margin-bottom: 0;
 }
