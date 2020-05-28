@@ -1,0 +1,31 @@
+.index h1 {
+  font-size: 6vh;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.index h2 {
+  font-size: 8vh;
+  text-align: center;
+}
+
+button {
+  font-size: 5vh;
+  width: 70vw;
+  border-radius: 10vh;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 80vw;
+  height: 40vh;
+}
+
+html {
+  border: 1vh solid rgb(56, 208, 230);
+  height: 100vh;
+}
