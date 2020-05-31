@@ -67,7 +67,8 @@ button a:hover {
 
 iframe {
   margin-top: 5vh;
-  width: 50vw;
-  height: 50vh;
+  width: 80vw;
+  height: 80vh;
   border: 0.7vh solid rgb(56, 208, 230);
+  margin-bottom: 5vh;
 }
