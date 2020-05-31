@@ -68,7 +68,8 @@
             <button class="btn btn-primary one" type="button" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Gifts</button>
             <button class="btn btn-primary one" type="button" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Kids</button>
             <button class="btn btn-primary one" type="button" data-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5">Famous Treats</button>
-            <button class="btn btn-primary one" type="button" data-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample6">Local Art</button>
+            <button class="btn btn-primary one" type="button" data-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample6">Bath Products</button>
+            <button class="btn btn-primary one" type="button" data-toggle="collapse" href="#multiCollapseExample7" role="button" aria-expanded="false" aria-controls="multiCollapseExample7">Local Art</button>
           </p>
           <div class="collapse multi-collapse" id="multiCollapseExample1" data-parent="#myGroup">
               <div class="card card-body">
@@ -118,7 +119,7 @@
                      <script>
                        (function(){
                            new InstagramFeed({
-                               'tag': 'bahamamasgifts',
+                               'tag': 'bahamamamasgifts',
                                'container': document.getElementById("instagram-feed3"),
                                'display_profile': false,
                                'display_biography': false,
@@ -181,8 +182,29 @@
                                <script>
                                  (function(){
                                      new InstagramFeed({
-                                         'tag': 'bahamamamaslocalart',
+                                         'tag': 'bahamamamasbathproducts',
                                          'container': document.getElementById("instagram-feed6"),
+                                         'display_profile': false,
+                                         'display_biography': false,
+                                         'display_gallery': true,
+                                         'callback': null,
+                                         'styling': true,
+                                         'items': 9,
+                                         'items_per_row': 3,
+                                         'margin': 1
+                                     });
+                                 })();
+                               </script>
+                             </div>
+                             </div>
+                       <div class="collapse multi-collapse" id="multiCollapseExample7" data-parent="#myGroup">
+                           <div class="card card-body">
+                             <div class="instagram_feed" id="instagram-feed7"></div>
+                               <script>
+                                 (function(){
+                                     new InstagramFeed({
+                                         'tag': 'bahamamamaslocalart',
+                                         'container': document.getElementById("instagram-feed7"),
                                          'display_profile': false,
                                          'display_biography': false,
                                          'display_gallery': true,
