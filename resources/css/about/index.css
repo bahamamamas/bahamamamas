@@ -106,3 +106,7 @@ p {
 .laurie {
   width: 50vw;
 }
+
+#center {
+  text-align: center;
+}
